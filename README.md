@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `META_12h.csv` (142 rows, `2026-02-09` -> `2026-09-01`, 8.50 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/meta)** — **2,857** `12h` rows (full `1m`: 637,227), **11 timeframes**, `2012-05-18` -> `2026-09-01`.
+> **Sample on GitHub** · `META_12h.csv` (77 rows, `2026-05-13` -> `2026-09-01`, 8.35 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/meta)** — **2,857** `12h` rows (full `1m`: 636,459), **11 timeframes**, `2012-05-18` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Meta Platforms · US stocks | Meta Platforms · US stocks |
 | Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 12h rows | 142 | **2,857** |
-| Size | 8.50 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/meta) |
-| Period | `2026-02-09` -> `2026-09-01` | `2012-05-18` -> `2026-09-01` |
+| 12h rows | 77 | **2,857** |
+| Size | 8.35 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/meta) |
+| Period | `2026-05-13` -> `2026-09-01` | `2012-05-18` -> `2026-09-01` |
 | File | `META_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/meta) |
 | Coverage report | — | [META coverage](https://getdata.finance/coverage/meta) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`META_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-09T12:00:00+00:00 | 660.85 | 682.94 | 658.43 | 677.48 | 24983 |
-| 2026-02-10T12:00:00+00:00 | 677.48 | 679.71 | 669.3 | 670.63 | 17074 |
-| 2026-02-11T12:00:00+00:00 | 670.63 | 678.52 | 656.8 | 668.63 | 21769 |
-| 2026-02-12T12:00:00+00:00 | 668.63 | 675.61 | 644.98 | 649.8 | 24320 |
-| 2026-02-13T12:00:00+00:00 | 649.8 | 651.06 | 634.29 | 639.71 | 20771 |
+| 2026-05-13T12:00:00+00:00 | 610.04 | 626.63 | 603.6 | 623.57 | 26693.59916 |
+| 2026-05-14T12:00:00+00:00 | 623.57 | 630.44 | 620.83 | 625.44 | 25176 |
+| 2026-05-15T12:00:00+00:00 | 625.44 | 627.91 | 616.04 | 621.27 | 24849.35719 |
+| 2026-05-18T12:00:00+00:00 | 621.27 | 622.29 | 610.45 | 618.06 | 31667 |
+| 2026-05-19T12:00:00+00:00 | 618.06 | 620.44 | 607.38 | 609.64 | 24467 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-26T12:00:00+00:00 | 569.59 | 592.42 | 561.49 | 579 | 32809 |
-| 2026-08-27T12:00:00+00:00 | 575.8 | 587.76 | 567.16 | 570.86 | 22418 |
-| 2026-08-28T12:00:00+00:00 | 570.86 | 588.78 | 570.24 | 578 | 29941 |
-| 2026-08-31T12:00:00+00:00 | 578 | 578 | 568.73 | 571.92 | 20834 |
-| 2026-09-01T12:00:00+00:00 | 571.92 | 584.35 | 555.83 | 578.11 | 26444 |
+| 2026-08-26T12:00:00+00:00 | 576.8 | 599.63 | 568.7 | 582.2 | 42608 |
+| 2026-08-27T12:00:00+00:00 | 582.2 | 594.16 | 573.56 | 577.18 | 29405 |
+| 2026-08-28T12:00:00+00:00 | 577.18 | 595.1 | 576.56 | 584.32 | 29941 |
+| 2026-08-31T12:00:00+00:00 | 584.32 | 584.32 | 575.05 | 578.24 | 20834 |
+| 2026-09-01T12:00:00+00:00 | 578.24 | 590.67 | 562.15 | 584.43 | 26444 |
 
 ## Schema
 
